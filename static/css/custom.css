@@ -1,0 +1,80 @@
+/* 
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+
+    .flex-col-element {
+        flex: 50%;
+    }
+
+  .column-container {
+    display: flex;
+  }
+  
+  .image-col {
+    width: 30%;
+    float: left;
+  }
+  
+  .content-col {
+    width: 70%;
+    float: right;
+  }
+
+
+    .max-w-prose-col-thin {
+        max-width: 32ch;
+    }
+
+    .max-w-prose-col-thick {
+        max-width: 60ch;
+    }
+
+
+  .px-3 {
+    padding-left: 0rem;
+    padding-right: 3rem;
+    }
+
+
+    .px-4 {
+        padding-left: 0rem;
+        padding-right: 4rem;
+        }
+        
+    .px-5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    }
+
+    .px-banner {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+    
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .logo-width {
+      width: 15rem;
+    }
+
+
+    /* Changing swiper side */
+    .swiper-slide .s-fade-txt {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
