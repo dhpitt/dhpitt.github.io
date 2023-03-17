@@ -1,0 +1,79 @@
+baseURL = "https://www.dhpitt.com"
+title = "David Pitt"
+author = "dhpitt"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = false
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  faviconTouch = "picon-192x192.png"
+  favicon32 = "picon-32x32.png"
+
+  [params.logo]
+    main = "img/logo/picon.png"
+    alt = "My Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "David Pitt"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About me"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "cat"
+    name = "Cat"
+    url = "/cat/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/dhpitt/dhpitt.github.io"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2

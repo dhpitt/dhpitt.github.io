@@ -55,9 +55,9 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
-    identifier = "cat"
-    name = "Cat"
-    url = "/cat/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 3
 
   [[menu.main]]
@@ -65,6 +65,12 @@ enableRobotsTXT = true
     name = "Contact"
     url = "/contact/"
     weight = 4
+
+  [[menu.main]]
+    identifier = "cat"
+    name = "Cat"
+    url = "/cat/"
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
