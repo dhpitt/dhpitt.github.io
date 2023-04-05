@@ -1,6 +1,7 @@
 baseURL = "https://www.dhpitt.com"
 title = "David Pitt"
 author = "dhpitt"
+Owner = "DH Pitt Consulting, LLC"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -35,6 +36,7 @@ enableRobotsTXT = true
 
   [params.site]
     name = "David Pitt"
+    owner = "DH Pitt Consulting, LLC"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
