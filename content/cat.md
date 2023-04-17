@@ -5,4 +5,4 @@ draft: false
 type: cat
 ---
 
-This fall, I adopted a cat. He's really cute and I keep some photos here for his fans.
+Last fall, I adopted a cat. He's really cute and I keep some photos here for his fans.

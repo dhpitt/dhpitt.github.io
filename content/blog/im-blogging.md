@@ -10,5 +10,3 @@ This isn't the first time I've thought about writing a blog, and I'm finally giv
 
 
 
-
-
