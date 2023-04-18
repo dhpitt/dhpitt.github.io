@@ -23,11 +23,11 @@ enableRobotsTXT = true
 
   googleFonts = true
 
-  faviconTouch = "picon-192x192.png"
-  favicon32 = "picon-32x32.png"
+  faviconTouch = "favicon-16x16"
+  favicon32 = "favicon-32x32"
 
   [params.logo]
-    main = "img/logo/picon.png"
+    main = "delta_icon-192x192.png"
     alt = "My Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -82,6 +82,6 @@ enableRobotsTXT = true
 
   [[menu.footer]]
     name = "Github"
-    url = "https://github.com/dhpitt/dhpitt.github.io"
+    url = "https://github.com/dhpitt"
     pre = "<i class='icon-github text-2xl'></i>"
       weight = 2
