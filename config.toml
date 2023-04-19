@@ -27,7 +27,7 @@ enableRobotsTXT = true
   favicon32 = "favicon-32x32"
 
   [params.logo]
-    main = "delta_icon-192x192.png"
+    main = "blue-delta-192x192.png"
     alt = "My Logo"
 
     # The size parameter is the class name of tailwindcss
