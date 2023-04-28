@@ -1,5 +1,5 @@
 baseURL = "https://www.dhpitt.com"
-title = "David Pitt"
+title = "DH Pitt"
 author = "dhpitt"
 Owner = "DH Pitt Consulting, LLC"
 languageCode = "en"
@@ -19,7 +19,7 @@ enableRobotsTXT = true
 
 [params]
 
-  mainSections = ['blog']
+  mainSections = ['work']
 
   googleFonts = true
 
@@ -56,18 +56,18 @@ enableRobotsTXT = true
     url = "/resume/"
     weight = 2
 
-  #[[menu.main]]
-  #  identifier = "blog"
-  #  name = "Blog"
-  #  url = "/blog/"
-  #  weight = 3
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
+    [[menu.main]]
+    identifier = "work" 
+    name = "Work"
+    url = "/Work/"
     weight = 3
 
+#  [[menu.main]]
+#    identifier = "contact"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 3
+#
   [[menu.main]]
     identifier = "cat"
     name = "Cat"
