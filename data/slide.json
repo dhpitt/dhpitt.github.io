@@ -1,15 +1,11 @@
 [
     {
-      "title": "Hi, I'm David Pitt.",
+      "title": "I'm David Pitt.",
       "image": "img/stehekin_center.jpeg"
     },
     {
-      "title": "I'm an ML engineer and I'm interested in using tech for good.",
-      "image": "img/rainier_focus.jpeg"
-    },
-    {
-      "title": "In my free time, I like to climb.",
-      "image": "img/toe_cutter_318_focus.png"
+      "title": "I'm building cool things for a better future.",
+      "image": "img/la-aerial.jpg"
     }
-  ]
+] 
   
