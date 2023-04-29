@@ -50,17 +50,17 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 1
 
-  [[menu.main]]
-    identifier = "resume"
-    name = "Resume"
-    url = "/resume/"
-    weight = 2
+ # [[menu.main]]
+ #   identifier = "resume"
+ #   name = "Resume"
+ #   url = "/resume/"
+ #   weight = 2
 
     [[menu.main]]
     identifier = "work" 
     name = "Work"
     url = "/Work/"
-    weight = 3
+    weight =  2 
 
 #  [[menu.main]]
 #    identifier = "contact"
