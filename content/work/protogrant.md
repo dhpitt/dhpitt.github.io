@@ -1,7 +1,7 @@
 ---
 title: InBrief - using AI to summarize environmental impact statements
 tags: ["AI", "NLP"]
-date: 2023-04-20T11:57:12-07:00
+date: 2023-04-18T11:57:12-07:00
 image: /img/protogrant.jpg
 draft: false
 ---
