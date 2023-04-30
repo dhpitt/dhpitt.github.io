@@ -3,6 +3,9 @@
  You can change the article headings, fonts, colors, etc.
 */
 
+
+font-family: 'Space Grotesk', sans-serif;
+
     .flex-col-element {
         flex: 50%;
     }
