@@ -3,6 +3,7 @@ title: Text Bias Inspector
 tags: ["AI", "NLP"]
 date: 2023-04-29T12:23:07-07:00
 image: blue-delta-192x192.png
+draft: true
 ---
 
 ## Using HolisticBias as a tool to evaluate bias in a corpus
