@@ -22,6 +22,10 @@ export default function Nav() {
       text: 'Work',
     },
     {
+      path: '/blog',
+      text: 'Blog',
+    },
+    {
       path: '/faves',
       text: 'Dave\'s faves',
     },

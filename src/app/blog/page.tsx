@@ -17,10 +17,11 @@ export default async function Blog() {
           const firstLine = post.contentRaw.split('\n').find(line => line.trim() !== '') ?? ''
           return (
             <PostPreview
-              key={post.slug}
-              title={post.frontmatter.title}
-              date={post.frontmatter.date}
-              preview={firstLine}
+                key={post.slug}
+                title={post.frontmatter.title}
+                date={post.frontmatter.date}
+                preview={firstLine}
+                slug={post.slug}
             />
           )
         })}
