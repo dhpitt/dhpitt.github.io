@@ -1,20 +1,25 @@
-import Experience from '@/components/sections/experience'
-import Skills from '@/components/sections/skills'
+// app/blog/page.tsx
+import { getAllPosts } from '@/lib/getMarkdownPosts'
+import { Card, CardContent, CardTitle } from '@/components/ui/card'
 
-export default function About() {
+export default async function Blog() {
+  const posts = await getAllPosts()
+
   return (
-    <div className="font-base">
-      <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Info about me</h1>
-
-      <div className="mb-10 text-base sm:text-lg">
-        <p>
-          
-        </p>
+    <div>
+      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">David's thoughts</h1>
+      <div className="flex flex-col gap-5">
+        {posts.map((post, id) => (
+          <Card className="bg-main" key={id}>
+            <center>
+              <CardTitle>{post.frontmatter.title}</CardTitle>
+            </center>
+            <CardContent>
+              <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+            </CardContent>
+          </Card>
+        ))}
       </div>
-
-      {/* <Skills /> */}
-
-      {/* <Experience /> */}
     </div>
   )
 }
