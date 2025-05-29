@@ -1,29 +1,11 @@
-// app/blog/page.tsx
-import { getAllPosts } from '@/lib/getMarkdownPosts'
-import PostPreview from '@/components/postpreview'
-
-export const metadata = {
-  title: "David's thoughts",
-}
-
-export default async function Blog() {
-  const posts = await getAllPosts()
-
+export default function About() {
   return (
-    <div>
-      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">David's thoughts</h1>
-      <div className="flex flex-col gap-5">
-        {posts.map((post) => {
-          const firstLine = post.contentRaw.split('\n').find(line => line.trim() !== '') ?? ''
-          return (
-            <PostPreview
-              key={post.slug}
-              title={post.frontmatter.title}
-              date={post.frontmatter.date}
-              preview={firstLine}
-            />
-          )
-        })}
+    <div className="font-base">
+      <h1 className="text-2xl font-heading sm:text-4xl">David Pitt</h1>
+      <div className="mt-8 text-base sm:text-lg">
+        <p>
+          Eventually, i'll store info here about me. 
+        </p>
       </div>
     </div>
   )
