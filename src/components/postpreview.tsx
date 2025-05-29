@@ -1,23 +1,18 @@
-import Link from 'next/link'
 import { Card, CardContent, CardTitle } from '@/components/ui/card'
+import Link from 'next/link'
+import { Post } from '@/types/post'
 
-type Props = {
-  title: string
-  date: string
-  preview: string
-}
-
-export default function PostPreview({ title, date, preview, slug }: 
-    { title: string; date: string; preview: string; slug: string }) {
+export default function PostPreview({ post }: { post: Post }) {
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/blog/${post.slug}`}>
       <Card className="bg-main hover:shadow-sm transition-shadow cursor-pointer">
-        <CardTitle className="text-center mt-4">{title}</CardTitle>
+        <CardTitle className="text-center mt-4">{post.frontmatter.title}</CardTitle>
         <CardContent className="text-center">
-          <p className="text-sm text-muted-foreground">{date}</p>
-          <p className="mt-2">{preview}</p>
-        </CardContent>
+          <p className="text-sm text-muted-foreground">{post.frontmatter.date}</p>
+          <p className="mt-2">{post.preview}</p>
+      </CardContent>
       </Card>
     </Link>
+    
   )
 }

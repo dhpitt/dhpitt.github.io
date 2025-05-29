@@ -1,21 +1,20 @@
-// app/blog/[slug]/page.tsx
+import { getAllPosts, getPostBySlug } from '@/lib/getMarkdownPosts'
 import SinglePost from '@/components/singlepost'
-import { getAllPosts } from '@/lib/getMarkdownPosts'
+import { notFound } from 'next/navigation'
+import { Post } from '@/types/post'
 
 type Params = {
-  params: {
-    slug: string
-  }
+  slug: string
 }
 
 export async function generateStaticParams() {
-  const posts = await getAllPosts()
-  return posts.map((post) => ({
-    slug: post.slug,
-  }))
+  const posts = getAllPosts()
+  return posts.map((post) => ({ slug: post.slug }))
 }
 
-export default async function BlogPostPage({ params }: Params) {
-  // params.slug is safe to access synchronously here
-  return <SinglePost slug={params.slug} />
+export default async function BlogPostPage({ params }: { params: Params }) {
+  const post = await getPostBySlug(params.slug)
+  if (!post) return notFound()
+
+  return <SinglePost post={post} />
 }

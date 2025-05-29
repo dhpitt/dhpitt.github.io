@@ -1,6 +1,7 @@
 // app/blog/page.tsx
 import { getAllPosts } from '@/lib/getMarkdownPosts'
 import PostPreview from '@/components/postpreview'
+import {Post} from '@/types/post'
 
 export const metadata = {
   title: "David's thoughts",
@@ -18,10 +19,7 @@ export default async function Blog() {
           return (
             <PostPreview
                 key={post.slug}
-                title={post.frontmatter.title}
-                date={post.frontmatter.date}
-                preview={firstLine}
-                slug={post.slug}
+                post={post}
             />
           )
         })}
