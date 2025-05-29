@@ -1,49 +1,22 @@
+import PROJECTS from '@/data/projects'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
+import { Card } from '@/components/ui/card'
 
-export default function Page() {
-  const PROJECTS = [
-    {
-      name: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project1.png',
-      repoUrl: 'https://github.com',
-    },
-    {
-      name: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project2.png',
-      repoUrl: 'https://github.com',
-    },
-    {
-      name: 'Project 3',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project3.png',
-      repoUrl: 'https://github.com',
-    },
-    {
-      name: 'Project 4',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project4.png',
-      repoUrl: 'https://github.com',
-    },
-  ]
-
+export default function Work() {
   return (
-    <>
-      {PROJECTS.map((project, id) => {
-        return (
-          <div
-            className="text-foreground bg-bg w600:px-[30px] w400:px-5 border-r-4 border-b-4 border-r-black border-b-black p-8 py-10"
-            key={id}
-          >
-            <div className="w800:w-full mx-auto w-3/4">
+    <div>
+      <h1 className="font-heading mb-8 text-2xl sm:text-4xl">Stuff I've done</h1>
+
+      <div className="flex flex-col gap-5">
+        {PROJECTS.map((project, id) => {
+          return (
+            <div
+              className="border-border shadow-shadow rounded-base bg-main border-2 p-4 sm:p-5"
+              key={id}
+            >
               <AspectRatio
-                className="rounded-base shadow-shadow -bottom-[2px]! border-2 border-black"
-                ratio={2 / 1}
+                className="border-border shadow-shadow rounded-base -bottom-[2px]! border-2"
+                ratio={71 / 26}
               >
                 <img
                   className="rounded-base w-full"
@@ -52,25 +25,23 @@ export default function Page() {
                 />
               </AspectRatio>
 
-              <div className="mt-6">
-                <h2 className="w700:text-2xl w450:text-xl text-3xl font-bold">
+              <div className="text-main-foreground font-base mt-5">
+                <h2 className="font-heading text-xl sm:text-2xl">
                   {project.name}
                 </h2>
 
-                <p className="w450:text-base mt-5 text-lg">
-                  {project.description}
-                </p>
+                <p className="mt-2">{project.description}</p>
 
-                <div className="w400:text-sm mt-8 grid grid-cols-2 gap-5 text-base">
+                <div className="mt-8 grid grid-cols-2 gap-5">
                   <a
-                    className="border-border text-main-foreground shadow-shadow rounded-base bg-main hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center uppercase transition-all hover:shadow-none"
+                    className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
                     href={project.liveLink}
                     target="_blank"
                   >
                     Visit
                   </a>
                   <a
-                    className="border-border text-main-foreground shadow-shadow rounded-base bg-main hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center uppercase transition-all hover:shadow-none"
+                    className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
                     href={project.repoUrl}
                     target="_blank"
                   >
@@ -79,9 +50,9 @@ export default function Page() {
                 </div>
               </div>
             </div>
-          </div>
-        )
-      })}
-    </>
+          )
+        })}
+      </div>
+    </div>
   )
 }

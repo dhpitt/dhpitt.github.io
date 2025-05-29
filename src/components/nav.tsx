@@ -1,36 +1,51 @@
 'use client'
 
-import clsx from 'clsx'
-import Link from 'next/link'
+import { Link } from 'next-view-transitions'
 import { usePathname } from 'next/navigation'
+import clsx from 'clsx'
 import { ThemeSwitcher } from './theme-switcher'
 
 export default function Nav() {
   const path = usePathname()
 
+  const links = [
+    {
+      path: '/',
+      text: 'Home',
+    },
+    {
+      path: '/about',
+      text: 'About',
+    },
+    {
+      path: '/work',
+      text: 'Work',
+    },
+    {
+      path: '/faves',
+      text: 'Dave\'s faves',
+    },
+  ]
+
   return (
-    <nav className="border-b-border rounded-tr-base w600:text-lg w400:h-10 w400:text-base grid h-[50px] grid-cols-[1fr_1fr_50px] border-b-4 bg-black text-xl portrait:rounded-none">
-      <Link
-        className={clsx(
-          'flex h-full items-center justify-center uppercase',
-          path === '/' ? 'bg-black text-white' : 'text-main-foreground bg-main',
-        )}
-        href="/"
-      >
-        Home
-      </Link>
-      <Link
-        className={clsx(
-          'flex h-full items-center justify-center uppercase',
-          path === '/work'
-            ? 'bg-black text-white'
-            : 'text-main-foreground bg-main',
-        )}
-        href="/work"
-      >
-        Projects
-      </Link>
-      <ThemeSwitcher />
-    </nav>
+    <div className="fixed top-5 left-0 z-50 w-full">
+      <nav className="text-main-foreground border-border shadow-shadow rounded-base bg-main font-base w450:gap-4 mx-auto flex w-max gap-5 border-2 p-2.5 px-5 text-sm sm:text-base">
+        {links.map((link) => {
+          return (
+            <Link
+              key={link.path}
+              className={clsx(
+                'hover:border-border rounded-base border-2 px-2 py-1 transition-colors',
+                path === link.path ? 'border-border' : 'border-transparent',
+              )}
+              href={link.path}
+            >
+              {link.text}
+            </Link>
+          )
+        })}
+        <ThemeSwitcher />
+      </nav>
+    </div>
   )
 }

@@ -1,16 +1,14 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
-@config '../../tailwind.config.ts';
-
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(92.13% 0.0388 282.36);
-  --secondary-background: oklch(100% 0 0);
-  --foreground: oklch(0% 0 0);
-  --main-foreground: oklch(0% 0 0);
-  --main: oklch(66.34% 0.1806 277.2);
+  --background: #fff9d9;
+  --secondary-background: #296EB4;
+  --foreground: #051544;;
+  --main-foreground: #071c59;
+  --main: #ffa938;
   --border: oklch(0% 0 0);
   --ring: oklch(0% 0 0);
   --overlay: oklch(0% 0 0 / 0.8);
@@ -18,11 +16,11 @@
 }
 
 .dark {
-  --background: oklch(26.58% 0.0737 283.96);
-  --secondary-background: oklch(23.93% 0 0);
+  --background: oklch(26.86% 0.0327 60.06);
+  --secondary-background: #bb5117;
   --foreground: oklch(92.49% 0 0);
   --main-foreground: oklch(0% 0 0);
-  --main: oklch(66.34% 0.1806 277.2);
+  --main: oklch(67.56% 0.1796 49.61);
   --border: oklch(0% 0 0);
   --ring: oklch(100% 0 0);
   --shadow: 4px 4px 0px 0px var(--border);
@@ -48,35 +46,40 @@
   --font-weight-heading: 700;
 }
 
-:root {
+body {
+  background-color: var(--background);
+}
+
+body {
   --sb-track-color: #ffffff;
   --sb-thumb-color: #000000;
 }
 
-body {
-  @apply bg-secondary-background flex min-h-[100dvh] w-full items-center justify-center font-bold selection:bg-black selection:text-white portrait:h-[100dvh];
+html.dark body,
+html.dark .scrollbar {
+  --sb-track-color: #1f1f1f;
+  --sb-thumb-color: #e6e6e6;
 }
 
-.main::-webkit-scrollbar {
-  width: 16px;
+body::-webkit-scrollbar {
+  width: 20px;
 }
 
-.main::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
+  border-left: 4px solid #000;
 }
 
-.main::-webkit-scrollbar-thumb {
+html.dark body::-webkit-scrollbar-thumb {
+  border-left: 4px solid #000;
+}
+
+body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
 }
 
 @supports not selector(::-webkit-scrollbar) {
-  .main {
+  body {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-  }
-}
-
-@media (max-width: 400px) {
-  .main {
-    max-height: calc(100dvh - 40px) !important;
   }
 }
