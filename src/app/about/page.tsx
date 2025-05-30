@@ -19,7 +19,10 @@ export default function About() {
           For work, I do machine learning development and research. I've worked on a few different
           domains, from scientific computing to machine vision, and soon robotics. I'm drawn to ML 
           because I believe that it's our job to make the physical production of Stuff as efficient
-          as we can. Hopefully this will eventually mean everyone gets more of all the Stuff we need,
+          as we can, and further that AI, applied to the right problems in the right way, will be a
+          HUGE part of getting there. 
+          
+          Hopefully this will eventually mean everyone gets more of all the Stuff we need,
           like food, medicine and houses. 
         </p>
 
