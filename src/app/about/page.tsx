@@ -27,12 +27,9 @@ export default function About() {
       <h2 className="text-2xl font-heading sm:text-2xl">Social stuff</h2>
         <p>
           I'm happiest when I'm part of a big happy community. I like to make new friends
-          and especially enjoy bringing people together over a delicious meal. If I haven't 
-          already invited you over for dinner and you want to be, ask and ye shall be invited.
-          
-          I don't care if we met one time or you're my boss or something. 
-          Seriously - one of the things our Boomer grandparents got right is that they hosted
-          everyone they knew for drinks and dinner like four nights a week. 
+          and especially enjoy bringing people together over a delicious meal. Once I land
+          permanently in New York in July, my first order of business will be finding a big 
+          dinner table. 
           
         </p>
 
