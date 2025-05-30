@@ -7,14 +7,14 @@ import { Post } from '@/types/post'
 
 const postsDir = path.join(process.cwd(), 'src/data/posts')
 
-function getPostPreviewText(data: matter.GrayMatterOption<string, any>, content: string): string {
-  return data.preview || (content.split('\n').find(line => line.trim())?.slice(0, 100) || '') + '...'
+function getPostPreviewText(data: matter.GrayMatterFile<string>, content: string): string {
+  return data.data.preview || (content.split('\n').find(line => line.trim())?.slice(0, 100) || '') + '...'
 }
 
 export function getAllPosts(): Post[] {
   const fileNames = fs.readdirSync(postsDir)
 
-  const posts = fileNames.map((fileName) => {
+  const posts = fileNames.map((fileName: string) => {
     const slug = fileName.replace(/\.md$/, '')
     const fullPath = path.join(postsDir, fileName)
     const raw = fs.readFileSync(fullPath, 'utf8')
@@ -26,7 +26,7 @@ export function getAllPosts(): Post[] {
         title: data.title,
         date: data.date,
       },
-      preview: getPostPreviewText(data, content),
+      preview: getPostPreviewText(data.data, content),
       contentHtml: '',
       contentRaw: content
     }
