@@ -3,10 +3,6 @@ const THOUGHTS: {
   text: string
 }[] = [ 
   {
-    name: 'Favorite color',
-    text: 'toss-up'
-  },
-  {
     name: 'Favorite food',
     text: 'peanut butter'
   },
@@ -15,16 +11,8 @@ const THOUGHTS: {
     text: 'ocean'
   },
   {
-    name: 'Favorite plant',
-    text: 'trees (big)'
-  },
-  {
-    name: 'Favorite activity',
-    text: 'goofing around'
-  },
-  {
-    name: 'Favorite movie rating',
-    text: 'PG from the 1980s'
+    name: 'Favorite animal',
+    text: 'Killer whale'
   },
  
 ]

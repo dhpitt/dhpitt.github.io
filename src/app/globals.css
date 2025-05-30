@@ -18,11 +18,11 @@
 }
 
 .dark {
-  --background: oklch(26.86% 0.0327 60.06);
+  --background: #58413a;
   --secondary-background: #bb5117;
-  --foreground: oklch(92.49% 0 0);
-  --main-foreground: oklch(0% 0 0);
-  --main: oklch(67.56% 0.1796 49.61);
+  --foreground: #e3e3e3;
+  --main-foreground: rgb(255, 239, 231);
+  --main: #e06126;
   --border: oklch(0% 0 0);
   --ring: oklch(100% 0 0);
   --shadow: 4px 4px 0px 0px var(--border);

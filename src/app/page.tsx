@@ -8,7 +8,7 @@ export default function Home() {
       <p className="mt-2 text-lg sm:text-xl">All-around cool guy / pro computer user</p>
       <div className="mt-8 text-base sm:text-lg">
         <p>
-          Welcome to my website, the #1 place for all things David. 
+          Welcome to my website, the #1 place for all things David.
         </p>
 
         <p>
