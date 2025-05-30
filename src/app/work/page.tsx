@@ -34,14 +34,20 @@ export default function Work() {
 
                 <div className="mt-8 grid grid-cols-2 gap-5">
                   <a
-                    className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
+                    className="border-border bg-secondary-background text-foreground shadow-shadow 
+                    rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY 
+                    cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all 
+                    hover:shadow-none sm:text-base"
                     href={project.liveLink}
                     target="_blank"
                   >
                     Visit
                   </a>
                   <a
-                    className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
+                    className="border-border bg-secondary-background text-foreground shadow-shadow 
+                    rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY 
+                    cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all 
+                    hover:shadow-none sm:text-base"
                     href={project.repoUrl}
                     target="_blank"
                   >

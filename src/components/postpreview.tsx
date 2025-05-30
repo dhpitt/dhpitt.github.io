@@ -5,7 +5,8 @@ import { Post } from '@/types/post'
 export default function PostPreview({ post }: { post: Post }) {
   return (
     <Link href={`/blog/${post.slug}`}>
-      <Card className="bg-main hover:shadow-sm transition-shadow cursor-pointer">
+      <Card className="bg-main hover:translate-x-boxShadowX 
+      hover:translate-y-boxShadowY hover:shadow-none cursor-pointer">
         <CardTitle className="text-center mt-4">{post.frontmatter.title}</CardTitle>
         <CardContent className="text-center">
           <p className="text-sm text-muted-foreground">{post.frontmatter.date}</p>
