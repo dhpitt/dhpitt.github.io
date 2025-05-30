@@ -53,7 +53,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       title: data.title,
       date: data.date,
     },
-    preview: getPostPreviewText(data, content),
+    preview: getPostPreviewText(data.data, content),
     contentHtml,
     contentRaw: content
   }
