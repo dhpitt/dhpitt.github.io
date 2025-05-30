@@ -16,11 +16,11 @@ const PROJECTS: {
   },
   {
     name: 'Toy robot arm',
-    description: 'I built an open-source robot arm as a treat to \
+    description: 'I downloaded and built an open-source robot arm as a treat to \
     motivate me to learn about new policy models.',
-    liveLink: 'https://google.com',
+    liveLink: 'https://github.com/TheRobotStudio/SO-ARM100',
     previewImage: '/lerobot.JPG',
-    repoUrl: 'https://github.com/huggingface/lerobot',
+    repoUrl: 'https://github.com/TheRobotStudio/SO-ARM100',
   },
   {
     name: 'InBrief: RAG for environmental impact statements',
