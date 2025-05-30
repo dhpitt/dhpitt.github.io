@@ -7,6 +7,10 @@ import { Post } from '@/types/post'
 
 const postsDir = path.join(process.cwd(), 'src/data/posts')
 
+function getPostPreviewText(data: matter.GrayMatterOption<string, any>, content: string): string {
+  return data.preview || (content.split('\n').find(line => line.trim())?.slice(0, 100) || '') + '...'
+}
+
 export function getAllPosts(): Post[] {
   const fileNames = fs.readdirSync(postsDir)
 
@@ -22,7 +26,7 @@ export function getAllPosts(): Post[] {
         title: data.title,
         date: data.date,
       },
-      preview: data.preview || content.split('\n').find(line => line.trim())?.slice(0, 100) || '',
+      preview: getPostPreviewText(data, content),
       contentHtml: '',
       contentRaw: content
     }
@@ -49,7 +53,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       title: data.title,
       date: data.date,
     },
-    preview: data.preview || content.split('\n').find(line => line.trim())?.slice(0, 100) || '',
+    preview: getPostPreviewText(data, content),
     contentHtml,
     contentRaw: content
   }

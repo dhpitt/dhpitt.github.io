@@ -15,7 +15,6 @@ export default async function Blog() {
       <h1 className="font-heading mb-8 text-2xl sm:text-4xl">David's thoughts</h1>
       <div className="flex flex-col gap-5">
         {posts.map((post) => {
-          const firstLine = post.contentRaw.split('\n').find(line => line.trim() !== '') ?? ''
           return (
             <PostPreview
                 key={post.slug}

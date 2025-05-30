@@ -16,6 +16,5 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = await getPostBySlug(awaitedParams.slug)
   if (!post) return notFound()
   
-  console.log(post.contentHtml)
   return <SinglePost post={post} />
 }
