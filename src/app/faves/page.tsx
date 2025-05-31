@@ -1,5 +1,5 @@
-import THOUGHTS from '@/data/thoughts'
-import { AspectRatio } from '@/components/ui/aspect-ratio'
+import LINKS from '@/data/links'
+import Link from 'next/link'
 import { Card, CardContent, CardTitle } from '@/components/ui/card'
 
 export default function Blog() {
@@ -8,23 +8,24 @@ export default function Blog() {
       <h1 className="font-heading mb-8 text-2xl sm:text-4xl">A couple favorite things</h1>
 
       <div className="flex flex-col gap-5">
-        {THOUGHTS.map((thought, id) => {
+        {LINKS.map((link, id) => {
           return (
-            
-              <Card className="bg-main" key={id}>
+            <Link href={link.url} key={id}>
+              <Card className="bg-main hover:translate-x-boxShadowX
+              hover:translate-y-boxShadowY hover:shadow-none cursor-pointer">
                 <center>
                   <CardTitle>
-                    {thought.name}
+                    {link.name}
                   </CardTitle>
                 </center>
-                
                 <center>
                   <CardContent>
-                    {thought.text}
+                    {link.desc}
                   </CardContent>
                 </center>
 
               </Card>
+            </Link>
           )
         })}
       </div>
