@@ -6,13 +6,11 @@ export default function About() {
 
       <h2 className="text-2xl font-heading sm:text-2xl">Work</h2>
         <p>
-          For work, I do machine learning development and research. I've worked on a few different
-          domains, from scientific computing to machine vision, and soon robotics. I just finished up
+          I work as a machine learning scientist/founding SWE at 
+          <a href="https://www.ultra.tech/"> Ultra</a>, a startup deploying industrial robots. I just finished up
           two years at the AI4Science Lab at Caltech, where I worked on 
           <a href="https://neuraloperator.github.io/dev/index.html"> NeuralOperator</a>, a popular
-          open-source library for PDE operator learning in PyTorch. Next month, I'm starting work at  
-          <a href="https://www.ultra.tech/"> Ultra</a>, a startup deploying industrial robots! 
-          
+          open-source library for PDE operator learning in PyTorch. 
           <br/>
 
           I'm drawn to ML because I believe that automation will be a huge step towards boosting our 
@@ -37,9 +35,8 @@ export default function About() {
       <h2 className="text-2xl font-heading sm:text-2xl">Social stuff</h2>
         <p>
           I'm happiest when I'm part of a big social community. I like to make new friends
-          and especially enjoy bringing people together over a delicious meal. Once I land
-          permanently in New York in July, my first order of business will be finding a big 
-          dinner table. 
+          and especially enjoy bringing people together over a delicious meal. As part of my recent
+          move to New York, my goal is to have as many people over for dinner as possible. 
           
         </p>
 
