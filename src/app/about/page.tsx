@@ -6,7 +6,7 @@ export default function About() {
 
       <h2 className="text-2xl font-heading sm:text-2xl">Work</h2>
         <p>
-          I work on ML and roboticsg at 
+          I work on ML and robotics at 
           <a href="https://www.ultra.tech/"> Ultra</a>, a startup deploying industrial robots. I just finished up
           two years at the AI4Science Lab at Caltech, where I worked on 
           <a href="https://neuraloperator.github.io/dev/index.html"> NeuralOperator</a>, a popular
