@@ -6,16 +6,14 @@ export default function About() {
 
       <h2 className="text-2xl font-heading sm:text-2xl">Work</h2>
         <p>
-          I work on ML and robotics at 
-          <a href="https://www.ultra.tech/"> Ultra</a>, a startup deploying industrial robots. I just finished up
-          two years at the AI4Science Lab at Caltech, where I worked on 
+          I work on robot software at <a href="https://www.ultra.tech/"> Ultra</a>. We deploy robots in
+          warehouses. 
+          Before that I worked for two years in the AI4Science Lab at Caltech, where I developed
           <a href="https://neuraloperator.github.io/dev/index.html"> NeuralOperator</a>, a popular
-          open-source library for PDE operator learning in PyTorch. 
+          open-source library for PDE operator learning in PyTorch. I maintain the library now 
+          as an open-source contributor.
           <br/>
-
-          I'm drawn to ML because I believe that automation will be a huge step towards boosting our 
-          capacity to produce and distribute all the things people need to live good lives, like
-          food, houses and medicine. 
+          I hope that deploying robots everywhere will make us more capable of producing the stuff people need to live good lives.
         </p>
 
         <br/>
@@ -23,11 +21,9 @@ export default function About() {
       <h2 className="text-2xl font-heading sm:text-2xl">Life in general</h2>
 
         <p>
-          I like to be outside in the sun and in the water. I'm happiest
-          when I'm doing one of those two every day. I like to move around and I tend to
-          be really into a physical hobby. Which one varies; in the past it's been hiking,
-          sport climbing, running, or my current top choice, surfing. I also love to bike, but
-          in more of a "going around town" kinda way than a "spandex outfit" kinda way. 
+          I like to be outside in the sun and in the water. I'm happiest when I have the opportunity to
+          do an outdoor physical activity every day. In LA this took the form of surfing before work,
+          and in New York so far it's been biking and doing yoga in the city's many beautiful public parks. 
         </p>
 
         <br/>
@@ -36,7 +32,8 @@ export default function About() {
         <p>
           I'm happiest when I'm part of a big social community. I like to make new friends
           and especially enjoy bringing people together over a delicious meal. As part of my recent
-          move to New York, my goal is to have as many people over for dinner as possible. 
+          move to New York, my goal is to have as many people over for dinner as possible. I have a huge 
+          dinner table.
           
         </p>
 
