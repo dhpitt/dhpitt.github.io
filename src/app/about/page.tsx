@@ -13,7 +13,7 @@ export default function About() {
           open-source library for PDE operator learning in PyTorch. I maintain the library now 
           as an open-source contributor.
           <br/>
-          I believe that deploying robots everywhere is a key step on the way to 
+          
         </p>
 
         <br/>
