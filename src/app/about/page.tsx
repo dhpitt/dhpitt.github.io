@@ -6,14 +6,14 @@ export default function About() {
 
       <h2 className="text-2xl font-heading sm:text-2xl">Work</h2>
         <p>
-          I work on robot software at <a href="https://www.ultra.tech/"> Ultra</a>. We deploy robots in
+          I work on machine learning for autonomy at <a href="https://www.ultra.tech/"> Ultra</a>. We deploy robots in
           warehouses. 
           Before that I worked for two years in the AI4Science Lab at Caltech, where I developed
           <a href="https://neuraloperator.github.io/dev/index.html"> NeuralOperator</a>, a popular
           open-source library for PDE operator learning in PyTorch. I maintain the library now 
           as an open-source contributor.
           <br/>
-          I hope that deploying robots everywhere will make us more capable of producing the stuff people need to live good lives.
+          I believe that deploying robots everywhere is a key step on the way to 
         </p>
 
         <br/>
@@ -32,8 +32,9 @@ export default function About() {
         <p>
           I'm happiest when I'm part of a big social community. I like to make new friends
           and especially enjoy bringing people together over a delicious meal. As part of my recent
-          move to New York, my goal is to have as many people over for dinner as possible. I have a huge 
-          dinner table.
+          move to New York, my goal is to have as many people over for dinner as possible at my enormous
+          dinner table. If you want to be invited over for dinner at the huge dinner table, all you gotta
+          do is ask.
           
         </p>
 
