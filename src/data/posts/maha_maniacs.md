@@ -1,7 +1,7 @@
 ---
 title: "Am I one of those Seed Oil Guys?"
 date: "2025-06-04"
-preview: You shouldn't need an app to know if your snack is healthy.
+preview: Do
 ---
 
 I just read a [really funny article in the New York Times](https://www.nytimes.com/2025/06/03/well/eat/yuka-nutrition-app-maha-benefits.html) about an app that lets users scan the bar code of packaged foods and assigns each product a health score out of 100. Apparently it's really popular with the "Make America Healthy Again" crowd online. The idea is that it's designed to help you make healthier choices at the grocery store. Apparently RFK Jr. says it's "invaluable" to him. 
@@ -48,12 +48,12 @@ I think it's what guarantees that their cultural reforms will fail.
 
 Nutrition advice has become way too complicated and it's a big driver behind the learned helpless I was talking about earlier. In truth for 99% of people eating healthy is really simple. Mostly whole foods. Every meal should have some lean protein, and half your plate should be fruits and veggies. 
 
-What's more: if you think you need processed foods because you're too busy, no you don't. I completely reject the idea that most people are too busy to cook for half an hour. All these supposedly beleaguered people are finding the time to watch hours of videos on social media or TV on streaming apps.
+What's more: you are not relying on processed foods because you don't have time. I completely reject the idea that most people are too busy to cook for half an hour. All these supposedly beleaguered people are finding the time to watch hours of videos on social media or TV on streaming apps. 
 
 It's perfectly possible that you don't want to do this. That's totally fine. I try as hard as I can to
-avoid being judgy about healthy eating choices. What frustrates me is the inconsistency: it's the MAHA people morally hectoring fast-food companies for cutting corners while being unwilling to get off their
-own asses and make a salad; it's the Times pretending that simple matters of health are PhD-level topics 
+avoid being judgy about healthy eating choices. What frustrates me is the inconsistency; seed oil people morally hectoring fast-food companies for cutting corners while being unwilling to get off their
+own asses and make a salad; the Times pretending that simple matters of health are PhD-level topics 
 in order to reify their position as the forum for experts, then acting confused when regular people reject
 their worldview and turn to a stupid little app to tell them which chips to buy. 
 
-If nothing else, the MAHA people and I can agree that we're sick of miso butter gochujang harissa spaghetti. 
+Make your own lunch. It doesn't have to be pretty. 
