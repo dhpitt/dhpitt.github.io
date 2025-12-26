@@ -21,18 +21,11 @@ One big cluster was vaguely political and vaguely negative. In the hermetically 
 
 All of these things are downstream of one essential truth that COVID revealed. The System does not care about you. If you were rich or in the in-group, you were told to stay inside and order groceries. If you were not, you were told to get back to work checking people out at CVS on the front lines of a disease before anyone knew what it did to you long-term if you got it. Aside from a momentary freeze on evictions and a couple hundred bucks, nobody was coming to save you. The economy could just... stop. At any moment, for basically any reason, your ability to earn shelter and food could be taken away as an afterthought. Around 60% of Americans live check-to-check under some definition of the term. Even if a stimulus check or two gave them a momentary buffer, the stark consequences and the lack of any real concern from above certainly contributed to people's newfound sense of desperation..
 
-**Note to my retarded friends (who I love, by the way): I am not saying that COVID was actually secretly really bad. All I'm saying is that hindsight is 20/20, and that before we knew for sure, we were OK with poor people taking a pretty serious risk to Door Dash us treats while we Zoomed.** 
+**Note to my retarded friends (who I love, by the way): I am not saying that COVID was actually secretly really bad. All I'm saying is that hindsight is 20/20, and that before we knew for sure, we were OK with poor people taking a pretty serious risk to bring us treats while we safely worked from home.** 
 
 
-Even if, according to all eggheaded metrics, the economy looked similar to economies that we would have called Good Economies pre-COVID, the way people **felt about themselves in relation to this economy** had totally changed.
+Even if, according to all eggheaded metrics, the economy looked similar to economies that we would have called Good Economies pre-COVID, the way people **felt about themselves in relation to this economy** had totally changed. Things like this clearly illustrated to regular people that we no longer occupied one single society, bound by one single social contract. 
+
 
 Scanlon and her boosters are right, in a sense, that this is a "vibe". Where they face-planted completely was in their response. There was no putting the toothpaste back in the tube. COVID permanently destroyed a lot of social trust and goodwill, both interpersonal and between society and our leaders. Sure, people speed more than they used to, and play their music through speakers on the train more often. But isn't it also true that none of us really cared that they had to go to work at CVS during the height of the disease, before we knew how bad it was? Especially while we all got to chill inside and work on Zoom? 
-
-Things like this clearly illustrated to regular people that we no longer occupied one single society, bound by one single social contract. 
-
-
-
-
-
-'Vibe-cession' is a perfect phrase for the empty-headed, nihilistic era of 'vibe coding', 'vibe thinking' and 'vibe evaluation'. 
 
