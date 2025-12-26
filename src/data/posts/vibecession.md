@@ -1,0 +1,38 @@
+---
+title: "The real Vibe-cession"
+date: "2025-09-29"
+preview: Vibe writing
+---
+
+Remember the 'vibe-cession'? 
+
+In 2022, a relatively unknown Substack/TikToker named Kyla Scanlon coined the term to describe a groundswell of Americans complaining about the economy online. Scanlon's content asserted that the surge in negativity, and specifically in mentions of a *recession*, were the result of a collective self-reinforcing delusion brought about by social media. The System, feeling a visceral sense of insecurity for the first time in recent memory, quickly got to work amplifying Scanlon and her content. Scanlon had one of the early versions of the Astroturfed Podcast Media Tour we now associate with politicians. She became extremely popular extremely quickly because she was saying something The System really wanted to hear: specifically, that people's economic anxiety was irrational, that they had bad attitudes, and that America needed to suck it up and eat its metaphorical vegetables. 
+
+Recall that in 2022 "The System" (the loose bundle of government and private institutions like media companies that socially reproduce the governing ideology) was run by a different group of guys than the guys running it right now. I call them Group A, defined in opposition to Group B (the guys running the show right now); other people call them the Blues and Reds, Left and Right, Liberals and Conservatives, Big Woke and another thing, et cetera. I think trying to define them based on their ideology is futile, because their ideologies are totally malleable. They shape-shift based on whatever is convenient to the group in charge: [Nancy Pelosi kneeling in the Kente Cloth](https://www.cnn.com/2020/06/08/politics/democrats-criticized-kente-cloth-trnd/index.html) becomes Camo Hat; America First becomes *Here's How Ukraine Can Still Win*.
+
+# Slop feeds
+Anyway, in the years right after Peak COVID, The System was in a tough spot. People were watching less TV than ever before and getting a larger proportion of their opinions from new places like TikTok. We had just spent two years locked inside going nutty because of a new type of disease. A few interesting things began to happen in that environment. First is that all the major social platforms - Facebook, Instagram, TikTok - started feeding users way more algorithmically recommended content. Short-form video content was taking off everywhere. It was clearer than ever that most large TV networks and newspapers were state mouthpieces, either in that they were directly told what to say or in that they did a very good job of guessing. People were frustrated with the lockdowns, with the vaccination and testing efforts, and even with communication of basic information about COVID, all of which the legacy institutions **totally fumbled**. They had never been in the position of needing to justify their position as the prime information disseminators and so had no ability to do so in a remotely competitive marketplace of slop. 
+
+ # Autoregressive slop
+Out of the aggregate of this new short-form consumption behavior, clusters began to emerge. Pointing to the exact pathologies that define these clusters is hard because they're moving targets. The algorithms that drive the clusters are autoregressive (they predict the next thing based on a messy estimate of the current thing). As the centers move, the kind of content recommended changes a little, which in turn affects the viewers and moves the center. Imagine if the data points in [K-means](https://en.wikipedia.org/wiki/K-means_clustering) moved a little closer to the centroids at each step. .
+
+One big cluster was vaguely political and vaguely negative. In the hermetically sealed autoregressive environment of Individual and Phone with Social Feed, people were deep-frying their politics like successive screenshots of a JPEG. It also turned out that a lot of people had a passive demand to consume frustration with Group A. An ecosystem of sunglasses in the car videos and viral podcast clips spun up to meet this demand. COVID had made Group A, and especially its political figureheads, increasingly unpopular. Fuck Joe Biden stickers and hats sold like hot cakes. The twin ideas of escaping the rat race and personal development also blew up. People began engaging with new mimetically acquired hyperfixations like Indoor Bouldering. They were also more interested than ever before in finding One Weird Trick to make a million dollars and retire. First it was so-called meme stocks, then cryptocurrency and NFTs, which hit a local max in late 2021/early 2022. 
+
+
+All of these things are downstream of one essential truth that COVID revealed. The System does not care about you. If you were rich or in the in-group, you were told to stay inside and order groceries. If you were not, you were told to get back to work checking people out at CVS on the front lines of a disease before anyone knew what it did to you long-term if you got it. Aside from a momentary freeze on evictions and a couple hundred bucks, nobody was coming to save you. The economy could just... stop. At any moment, for basically any reason, your ability to earn shelter and food could be taken away as an afterthought. Around 60% of Americans live check-to-check under some definition of the term. Even if a stimulus check or two gave them a momentary buffer, the stark consequences and the lack of any real concern from above certainly contributed to people's newfound sense of desperation..
+
+**Note to my retarded friends (who I love, by the way): I am not saying that COVID was actually secretly really bad. All I'm saying is that hindsight is 20/20, and that before we knew for sure, we were OK with poor people taking a pretty serious risk to Door Dash us treats while we Zoomed.** 
+
+
+Even if, according to all eggheaded metrics, the economy looked similar to economies that we would have called Good Economies pre-COVID, the way people **felt about themselves in relation to this economy** had totally changed.
+
+Scanlon and her boosters are right, in a sense, that this is a "vibe". Where they face-planted completely was in their response. There was no putting the toothpaste back in the tube. COVID permanently destroyed a lot of social trust and goodwill, both interpersonal and between society and our leaders. Sure, people speed more than they used to, and play their music through speakers on the train more often. But isn't it also true that none of us really cared that they had to go to work at CVS during the height of the disease, before we knew how bad it was? Especially while we all got to chill inside and work on Zoom? 
+
+Things like this clearly illustrated to regular people that we no longer occupied one single society, bound by one single social contract. 
+
+
+
+
+
+'Vibe-cession' is a perfect phrase for the empty-headed, nihilistic era of 'vibe coding', 'vibe thinking' and 'vibe evaluation'. 
+
